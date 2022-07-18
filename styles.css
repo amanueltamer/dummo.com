@@ -553,6 +553,10 @@ footer {
     color: white;
 }
 
+.insta__footer {
+    color: #EDE4D9;
+}
+
 /* SMALL PHONES, LARGE SMARTPHONES */
 
 @media (max-width: 550px) {
