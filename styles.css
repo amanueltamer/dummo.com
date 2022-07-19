@@ -57,9 +57,9 @@ section {
 }
 
 .title {
-    font-size: 120px;
+    font-size: 200px;
     margin-bottom: 12px;
-    text-align: left;
+    text-align: center;
     line-height: 1;
 }
 
@@ -101,6 +101,8 @@ LANDING PAGE
 */
 
 #landing-page {
+    display: flex;
+    justify-content: center;
     min-height: 100vh;
 }
 
@@ -325,7 +327,7 @@ SHOP
 
 .section__title {
     text-align: center;
-    font-size: 48px;
+    font-size: 80px;
     margin-bottom: 60px;
   }
   
@@ -560,6 +562,12 @@ footer {
 /* SMALL PHONES, LARGE SMARTPHONES */
 
 @media (max-width: 550px) {
+
+    .black {
+        font-size: 10px;
+    }
+
+
     .container {
         max-width: 100%;
     }
@@ -569,8 +577,15 @@ footer {
     }
 
     .title {
+        font-size: 200px;
+        margin-bottom: 12px;
         text-align: center;
-        font-size: 70px;
+        line-height: 1;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;align-items: center;
     }
 
     .header__para {
@@ -594,12 +609,22 @@ footer {
 }
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media(max-width: 760px) {
-    .header__description {
-        padding: 0 24px;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    h1 {
-        font-size: 40px;
+    .title {
+        font-size: 80px;
+        margin-bottom: 12px;
+        text-align: center;
+        line-height: 1;
+    }
+    
+    .header__description {
+        padding: 0 24px;
     }
 
     h2 {
