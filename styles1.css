@@ -12,6 +12,10 @@ SPLASH SCREEN
 
 */
 
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
 .splash {
     /* position: fixed; */
     display: flex;
